@@ -11,12 +11,8 @@
 	height: 340px;
 	width: 200px;
 	padding-bottom: 0px;
-	border-style: solid;
-	border-color: transparent;
-	border-top: 1px solid transparent;
-	border-left: 1px solid transparent;
-	border-right: 15px solid transparent;
-	border-bottom: 1px solid transparent;
+	border: 1px solid transparent;
+	border-right-width: 15px;
 	background-color: transparent !important;
 	background-image: var(--404);
 	background-position: center 50% !important;
@@ -81,9 +77,7 @@
 { color: var(--title-highlight); }
 
 .animetitle {
-	background-attachment: scroll !important;
 	background-clip: border-box !important;
-	background-position: left top !important;
-	background-repeat: no-repeat !important;
+	background: no-repeat scroll left top !important;
 	background-size: contain !important;
 }

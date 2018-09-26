@@ -171,7 +171,7 @@ textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[
     border-color: var(--main-color) !important;
 }
 
-/*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that. */
+/*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that.
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4), 
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5), 
@@ -179,7 +179,7 @@ textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
 display: tab\le-cell;
-}
+}*/
 #list_surround small a:last-of-type {
 display: none !important;
 }
