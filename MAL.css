@@ -172,6 +172,7 @@ textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[
 }
 
 /*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that.
+
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4), 
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5), 
@@ -198,7 +199,7 @@ visibility: visible !important;
 .td1:nth-of-type(5) small:hover, .td2:nth-of-type(5) small:hover,
 .td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
 text-decoration: underline;
-}*/
+}
 
 /* COVER AREA*/
 .td1 div small a[title*="View"], .td2 div small a[title*="View"] {display:none;color:transparent;font-size:0px;}
@@ -258,7 +259,7 @@ top: 145px;
 }
 .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
 top: 170px;
-}
+}*/
 
 
 /*COLOR OF THE ICONS.Change the color, and adjust the opacity for brighter color. Remove the display: none to match the selected icon to the other icons.*/
