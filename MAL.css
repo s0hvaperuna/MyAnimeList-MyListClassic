@@ -14,7 +14,7 @@
 --title-highlight: rgba(0,173,238,.9) !important;
 --border-color: #000000 !important; /*Also body background*/
 /*Images*/
---wallpaper: url("https://i.pinimg.com/originals/ca/7f/f4/ca7ff4f4018971562fb64f9db8a90fa0.jpg");
+--wallpaper: url("https://raw.githubusercontent.com/s0hvaperuna/MyAnimeList-MyListClassic/master/Images/Background.gif");
 --banner: url("https://raw.githubusercontent.com/s0hvaperuna/MyAnimeList-MyListClassic/master/Images/Banner_4K.png");
 /*Banner should be around 990x250 or have this aspect ration due to certain margin issues*/
 --banner-height: 125px;
