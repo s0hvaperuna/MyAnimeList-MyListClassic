@@ -179,7 +179,7 @@ textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
 display: tab\le-cell;
-}*/
+}
 #list_surround small a:last-of-type {
 display: none !important;
 }
@@ -198,7 +198,7 @@ visibility: visible !important;
 .td1:nth-of-type(5) small:hover, .td2:nth-of-type(5) small:hover,
 .td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
 text-decoration: underline;
-}
+}*/
 
 /* COVER AREA*/
 .td1 div small a[title*="View"], .td2 div small a[title*="View"] {display:none;color:transparent;font-size:0px;}
