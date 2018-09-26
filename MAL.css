@@ -1,4 +1,5 @@
 /*Theme by RaitaroH https://github.com/RaitaroH/MyAnimeList*/
+/* Forked by s0hvaperuna */
 
 /*Variables*/
 :root{
@@ -13,15 +14,15 @@
 --title-highlight: rgba(0,173,238,.9) !important;
 --border-color: #000000 !important; /*Also body background*/
 /*Images*/
---wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Background.gif");
---banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Banner_4K.png");
+--wallpaper: url("https://i.pinimg.com/originals/ca/7f/f4/ca7ff4f4018971562fb64f9db8a90fa0.jpg");
+--banner: url("https://raw.githubusercontent.com/s0hvaperuna/MyAnimeList-MyListClassic/master/Images/Banner_4K.png");
 /*Banner should be around 990x250 or have this aspect ration due to certain margin issues*/
 --banner-height: 125px;
---404: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/404.png");
---mal: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MAL.png");
+--404: url("https://raw.githubusercontent.com/s0hvaperuna/MyAnimeList-MyListClassic/master/Images/404.png");
+--mal: url("https://raw.githubusercontent.com/s0hvaperuna/MyAnimeList-MyListClassic/master/Images/MAL.png");
 /*Icons*/
---sprites: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/Sprites-transparent.png");
---sprites-hover: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/SpritesHover-transparent.png");
+--sprites: url("https://raw.githubusercontent.com/s0hvaperuna/MyAnimeList-MyListClassic/master/Images/Sprites-transparent.png");
+--sprites-hover: url("https://raw.githubusercontent.com/s0hvaperuna/MyAnimeList-MyListClassic/master/Images/SpritesHover-transparent.png");
 /*Sprite colors cannot be changed. Reuse --sprites instead of --spirtes-hover if needed.*/
 }
 
@@ -172,7 +173,6 @@ textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[
 }
 
 /*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that.*/
-/*
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4), 
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5), 
@@ -200,7 +200,7 @@ visibility: visible !important;
 .td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
 text-decoration: underline;
 }
-*/
+
 /* COVER AREA*/
 .td1 div small a[title*="View"], .td2 div small a[title*="View"] {display:none;color:transparent;font-size:0px;}
 .td1 div small, .td2 div small {visibility: hidden; color: var(--dimer-text); text-shadow: none !important;}
@@ -211,7 +211,6 @@ color: var(--main-color) !important;}
 color: var(--main-color) !important;}
 
 /*Floating menu */
-/*
 .status_not_selected a, .status_selected a {
 background-color: var(--main-background);
 height: 25px;
@@ -260,7 +259,7 @@ top: 145px;
 }
 .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
 top: 170px;
-}*/
+}
 
 
 /*COLOR OF THE ICONS.Change the color, and adjust the opacity for brighter color. Remove the display: none to match the selected icon to the other icons.*/
