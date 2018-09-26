@@ -171,8 +171,8 @@ textarea[class="inputtext"]:hover, textarea[class="inputtext"]:active, textarea[
     border-color: var(--main-color) !important;
 }
 
-/*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that.
-
+/*CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that.*/
+/*
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4), 
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5), 
@@ -200,7 +200,7 @@ visibility: visible !important;
 .td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
 text-decoration: underline;
 }
-
+*/
 /* COVER AREA*/
 .td1 div small a[title*="View"], .td2 div small a[title*="View"] {display:none;color:transparent;font-size:0px;}
 .td1 div small, .td2 div small {visibility: hidden; color: var(--dimer-text); text-shadow: none !important;}
@@ -211,6 +211,7 @@ color: var(--main-color) !important;}
 color: var(--main-color) !important;}
 
 /*Floating menu */
+/*
 .status_not_selected a, .status_selected a {
 background-color: var(--main-background);
 height: 25px;
