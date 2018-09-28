@@ -43,6 +43,47 @@
 	opacity: 1;
 }
 
+.hide {
+background-size: cover;
+left: 830px;
+top: 160px;
+height: 350px;
+width: 226px;
+padding-bottom: 0px;
+border: 1px solid white;
+border-radius: 25px 25px 25px 25px;
+background-color: rgba(200, 5, 200, 0.75);
+background-position: center 50% !important;
+background-repeat: no-repeat !Important;
+display: block !important;
+position: fixed;
+visibility: hidden;
+opacity: 0;
+}
+
+/* PREVIEW MSG ABOVE COVERS
+Remove content: "preview"; to remove the PREVIEW text.
+Change the text in quotations after content to what you want it to say above your cover pic.
+Top and width controls the position of the text.
+*/
+.hide:before {
+color: white;
+background: transparent;
+content: "PREVIEW";
+padding-bottom: 5px;
+position: absolute;
+text-align: center;
+width: 225px;
+top: -25px;
+border-radius: 25px 25px 0 0;
+}
+
+
+/* OTHER SETTINGS */
+:hover + .hide {
+visibility: visible;
+opacity: 1;
+}
 /*Anime title highlight*/
 .animetitle[href*="/33/"], .animetitle[href*="/71/"], .animetitle[href*="/72/"], .animetitle[href*="/73/"], .animetitle[href*="/777/"],
 .animetitle[href*="/1/"], .animetitle[href*="/21/"], .animetitle[href*="/4224/"], .animetitle[href*="/523/"], .animetitle[href*="/512/"],

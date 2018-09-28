@@ -1,4 +1,4 @@
-with open('Covers.css', 'r', encoding='utf-8') as f:
+with open('covers.txt', 'r', encoding='utf-8') as f:
     lines = f.read()
 
 covers = set()
